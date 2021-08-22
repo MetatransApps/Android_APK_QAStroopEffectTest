@@ -4,7 +4,7 @@ The license is GPL-2.0-only
 
 # Overview
 
-This is the repository, which builds this Android game "Non Stop Balloons: Shooter for Kids and Adults", https://metatransapps.com/non-stop-balloons-shooter-for-kids-and-adults/ developed by Metatrans Apps.
+This is the repository, which builds this Android game "Stroop Effect Test: Challenge and Test your Brain", https://metatransapps.com/stroop-effect-test-challenge-and-test-your-brain/ developed by Metatrans Apps.
 
 # Build APK
 
