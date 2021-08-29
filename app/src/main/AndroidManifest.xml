@@ -31,7 +31,7 @@
         android:icon="@drawable/ic_logo_ec"
         android:label="@string/app_ec_name"
         android:theme="@style/AppTheme"
-        android:name="com.easycolours.app.Application_EC_HomeAds">
+        android:name="com.easycolours.app.Application_QAStroopEffectTest">
 
         <activity
             android:name="com.apps.mobile.android.commons.menu.Activity_Menu_Colours_Base"

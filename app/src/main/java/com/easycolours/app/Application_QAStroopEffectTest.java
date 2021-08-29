@@ -6,7 +6,7 @@ import com.apps.mobile.android.commons.cfg.appstore.IAppStore;
 import com.easycolours.cfg.ads.AdsConfigurations_EC;
 
 
-public class Application_EC_HomeAds extends Application_EC {
+public class Application_QAStroopEffectTest extends Application_EC {
 
 
 	@Override
