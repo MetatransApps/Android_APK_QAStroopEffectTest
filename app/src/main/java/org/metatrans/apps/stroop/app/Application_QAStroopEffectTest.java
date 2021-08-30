@@ -1,10 +1,10 @@
-package org.metatransapps.apps.stroop.app;
+package org.metatrans.apps.stroop.app;
 
 
-import org.metatransapps.apps.stroop.app.Application_EC;
-import org.metatransapps.apps.stroop.cfg.ads.AdsConfigurations_EC;
-import org.metatransapps.commons.ads.api.IAdsConfigurations;
-import org.metatransapps.commons.cfg.appstore.IAppStore;
+import org.metatrans.apps.stroop.app.Application_EC;
+import org.metatrans.apps.stroop.cfg.ads.AdsConfigurations_EC;
+import org.metatrans.commons.ads.api.IAdsConfigurations;
+import org.metatrans.commons.cfg.appstore.IAppStore;
 
 
 public class Application_QAStroopEffectTest extends Application_EC {
