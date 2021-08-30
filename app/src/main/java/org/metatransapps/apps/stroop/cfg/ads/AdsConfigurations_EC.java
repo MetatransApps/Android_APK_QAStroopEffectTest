@@ -1,4 +1,4 @@
-package com.easycolours.cfg.ads;
+package org.metatransapps.apps.stroop.cfg.ads;
 
 
 import org.metatransapps.commons.ads.api.IAdsConfiguration;

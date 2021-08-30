@@ -1,10 +1,10 @@
-package com.easycolours.app;
+package org.metatransapps.apps.stroop.app;
 
 
+import org.metatransapps.apps.stroop.app.Application_EC;
+import org.metatransapps.apps.stroop.cfg.ads.AdsConfigurations_EC;
 import org.metatransapps.commons.ads.api.IAdsConfigurations;
 import org.metatransapps.commons.cfg.appstore.IAppStore;
-
-import com.easycolours.cfg.ads.AdsConfigurations_EC;
 
 
 public class Application_QAStroopEffectTest extends Application_EC {
