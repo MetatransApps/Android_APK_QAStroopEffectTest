@@ -37,7 +37,7 @@
             android:name="org.metatrans.commons.menu.Activity_Menu_Colours_Base"
             android:icon="@drawable/ic_rainbow"
             android:label="@string/menu_colour_scheme"
-            android:theme="@style/AppBaseTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -49,7 +49,7 @@
             android:name="org.metatrans.commons.engagement.achievements.Activity_Picture"
             android:icon="@drawable/ic_achievements"
             android:label="@string/achievement"
-            android:theme="@style/AppBaseTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <!-- action android:name="android.intent.action.MAIN" /-->
                 <category android:name="android.intent.category.DEFAULT" />
@@ -61,7 +61,7 @@
             android:name="org.metatrans.commons.engagement.achievements.Activity_Achievements_Base"
             android:icon="@drawable/ic_achievements"
             android:label="@string/achievements"
-            android:theme="@style/AppBaseTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <!-- action android:name="android.intent.action.MAIN" /-->
                 <category android:name="android.intent.category.DEFAULT" />
@@ -69,27 +69,18 @@
             </intent-filter>
         </activity>
 
+
         <activity
-            android:name="org.metatrans.commons.engagement.achievements.Activity_Scores"
-            android:icon="@drawable/ic_scores"
-            android:label="@string/scores"
-            android:theme="@style/AppBaseTheme" >
+            android:name="org.metatrans.commons.marketing.Activity_Marketing_AppList"
+            android:icon="@drawable/ic_colours_tube"
+            android:label="@string/label_moregames"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="org.metatrans.commons.marketing.Activity_Marketing_AppList"
-            android:icon="@drawable/ic_colours_tube"
-            android:label="@string/label_moregames"
-            android:theme="@style/AppBaseTheme">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <activity
             android:name="org.metatrans.commons.web.Activity_WebView_StatePreservingImpl_With_VideoPlayer"
@@ -98,32 +89,27 @@
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="org.metatrans.apps.stroop.loading.Activity_Loading"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <!-- category android:name="android.intent.category.DEFAULT" /-->
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="org.metatrans.apps.stroop.main.Activity_Question"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden|orientation|screenSize">
+            android:name="org.metatrans.apps.stroop.loading.Activity_Loading">
 
             <intent-filter>
-                <!-- action android:name="android.intent.action.MAIN"/-->
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name="org.metatrans.apps.stroop.main.Activity_Result"
-            android:label="@string/app_name"
+            android:name="org.metatrans.apps.stroop.main.Activity_Question"
             android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.metatrans.apps.stroop.main.Activity_Result"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -134,18 +120,7 @@
         <activity
             android:name="org.metatrans.apps.stroop.menu.Activity_Menu_Main"
             android:label="@string/menu_main"
-            android:theme="@style/AppBaseTheme" >
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="org.metatrans.apps.stroop.menu.Activity_Menu_Colours"
-            android:icon="@drawable/ic_colours"
-            android:label="@string/colour_scheme"
-            android:theme="@style/AppBaseTheme" >
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -156,7 +131,7 @@
             android:name="org.metatrans.apps.stroop.menu.Activity_Menu_Mode"
             android:icon="@drawable/ic_creature_turtle_nobackground_4"
             android:label="@string/label_mode"
-            android:theme="@style/AppBaseTheme" >
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
