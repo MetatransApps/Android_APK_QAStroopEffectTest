@@ -51,7 +51,6 @@
             android:label="@string/achievement"
             android:theme="@style/AppTheme">
             <intent-filter>
-                <!-- action android:name="android.intent.action.MAIN" /-->
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -63,7 +62,6 @@
             android:label="@string/achievements"
             android:theme="@style/AppTheme">
             <intent-filter>
-                <!-- action android:name="android.intent.action.MAIN" /-->
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
