@@ -1,0 +1,15 @@
+<p>Do you like simple offline games, which demonstrate interesting facts related with colors and words? Give it a try! The game illustrates interesting phenomenons by challenges the link between the visual color and the word of the color. There are 2 different playing modes:</p>
+<ul>
+<li>Get Meaning, Put Color - Understand the meaning and click the button with the correct color</li>
+<li>Get Color, Put Meaning - Recognize the colour and click the button with the correct meaning. Actually, this one is known in science and medicine as "Stroop Effect".</li></ul>
+
+<p><br><b>Features</b></p>
+<ol>
+<li>Questions organized as a test sequence (30 questions).</li>
+<li>Shows the result after the test.</li>
+<li>High scores - keeps track of your best result for each level.</li>
+<li>Supports different color palettes for different tastes.</li></ol>
+
+<p>Your feedback and/or review is more than welcome.</p>
+
+<p>https://metatransapps.com/stroop-effect-test-challenge-and-test-your-brain/</p>
