@@ -10,8 +10,8 @@ android {
         applicationId "com.easycolours"
         minSdkVersion 23
         targetSdkVersion 31
-        versionCode 123
-        versionName "1.2.3"
+        versionCode 126
+        versionName "1.2.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
