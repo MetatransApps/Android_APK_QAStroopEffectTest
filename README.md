@@ -8,13 +8,4 @@ This is the repository, which builds this Android game "Stroop Effect Test: Chal
 
 # Build APK
 
-In order to build it, you need to pull this repository as well as its dependencies in one and the same directory, because the Gradle build uses relative paths on the file system.
-The dependencies are these 4 repositories:
-
-  -  https://github.com/MetatransApps/Android_LIB_Commons
-  -  https://github.com/MetatransApps/Android_LIB_CommonsAds
-  -  https://github.com/MetatransApps/Android_LIB_CommonsQuestionnaire
-  -  https://github.com/MetatransApps/Android_APP_QAStroopEffectTest
-
-Just pull all these 5 repositories (the current one + the 4 dependencies) in one and the same directory.
-Then the structure could be imported in Android Studio or the Gradle build could be started manually.
+In order to build it, you need to pull this repository. Then the structure could be imported in Android Studio or the Gradle build could be started manually.
