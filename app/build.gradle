@@ -5,15 +5,15 @@ plugins {
 
 android {
 
-    compileSdkVersion 33
+    compileSdkVersion 34
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.easycolours"
         minSdkVersion 23
-        targetSdkVersion 33
-        versionCode 134
-        versionName "1.3.4"
+        targetSdkVersion 34
+        versionCode 137
+        versionName "1.3.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
